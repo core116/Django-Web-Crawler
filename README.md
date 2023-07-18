@@ -1,2 +1,9 @@
 # Django-Web-Crawler
-Web crawling is nowadays very important, in such a scenario having our own makes our work easy. In this project, the users will have to develop web crawlers to fetch information available on the internet. That information can be anything that the user wants to find. An amazing front that gives the user some options to select keywords and then crawl based on those keywords will be much easier. Some Python libraries like Beautiful Soup can also be used.
+Django app which can be used to crawl a website
+
+# Steps to run the project
+1. Install the requirements by running `pip3 install -r requirements.txt`
+2. Run the project by exexcuting `python manage.py runserver 0.0.0.0:8000`
+3. Access the project at [http://0.0.0.0:8000/](http://0.0.0.0:8000/)
+4. Enter a URL in the input field and wait for the results
+5. To use it as a REST API, keep the server running and frame the URL as `http://0.0.0.0:8000/api/?url=URL_TO_BE_CRAWLED`. Example: `http://0.0.0.0:8000/api/?url=google.com`
